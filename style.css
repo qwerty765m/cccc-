@@ -1,0 +1,75 @@
+/* Основні стилі для сторінки */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f3ec;
+  color: #2c2c2c;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Шапка сайту */
+header {
+  background-color: #1c2b1c;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Меню навігації */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+nav a {
+  color: #e8dccb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Основний вміст */
+main {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Розділи */
+section {
+  margin-bottom: 4rem;
+}
+
+/* Заголовки */
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #3b4f2b;
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Списки */
+ul {
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+}
